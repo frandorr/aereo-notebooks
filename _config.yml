@@ -1,0 +1,51 @@
+# Book settings
+title: "AerEO Tutorials"
+author: "Francisco Dorr"
+copyright: "2026"
+logo: ""
+
+# Execution settings
+execute:
+  execute_notebooks: "off"   # Notebooks are pre-executed; set to "auto" or "force" to run during build
+  timeout: 300
+  run_in_temp: false
+  allow_errors: false
+
+# Launch buttons
+repository:
+  url: https://github.com/frandorr/aereo-notebooks
+  path_to_book: ""
+  branch: main
+
+launch_buttons:
+  notebook_interface: jupyterlab
+  binderhub_url: "https://mybinder.org"
+  thebe: true
+
+# HTML output
+html:
+  favicon: ""
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  baseurl: ""
+
+# Parse settings
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+    - tasklist
+
+# Sphinx extras
+sphinx:
+  config:
+    html_show_copyright: true

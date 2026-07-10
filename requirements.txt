@@ -1,0 +1,11 @@
+# Build the book locally or in CI
+# Pin to Jupyter Book 1.x while the 2.x/mystmd CLI stabilizes.
+jupyter-book>=1.0,<2
+
+# Same runtime dependencies as .binder/requirements.txt
+aereo[all]
+jupyterlab>=4
+ipykernel>=7
+satpy>=0.59
+scipy>=1.13
+odc-loader>=0.6.4

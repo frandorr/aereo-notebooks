@@ -1,0 +1,23 @@
+format: jb-book
+root: intro
+chapters:
+  - file: notebooks/01-sentinel2
+    title: "01 — Sentinel-2 L2A"
+  - file: notebooks/01b-sentinel2-ndvi
+    title: "01b — Sentinel-2 NDVI"
+  - file: notebooks/01c-sentinel2-ndwi
+    title: "01c — Sentinel-2 NDWI"
+  - file: notebooks/02-viirs
+    title: "02 — VIIRS"
+  - file: notebooks/03-sentinel3
+    title: "03 — Sentinel-3 OLCI"
+  - file: notebooks/03b-sentinel3-ndvi
+    title: "03b — Sentinel-3 NDVI"
+  - file: notebooks/04-tessera
+    title: "04 — GeoTessera"
+  - file: notebooks/05-goes19
+    title: "05 — GOES-19 ABI"
+  - file: notebooks/06-multiple-constellation
+    title: "06 — Multiple constellations"
+  - file: notebooks/step_by_step_raw
+    title: "Step by step raw pipeline"

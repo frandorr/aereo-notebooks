@@ -1,0 +1,11 @@
+# AerEO and its optional visualization / planetary-computer / swath extras
+aereo[all]
+
+# Notebook runtime
+jupyterlab>=4
+ipykernel>=7
+
+# Sensor-specific packages used in the example notebooks
+satpy>=0.59
+scipy>=1.13
+odc-loader>=0.6.4
